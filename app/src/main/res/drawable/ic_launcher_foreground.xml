@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Tech Circle Ring -->
+    <path
+        android:pathData="M54,14 A40,40 0 1,1 53.99,14 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#1F60EFFF"
+        android:fillColor="#00000000" />
+
+    <!-- Outer Lens Ring (66dp Safe Zone boundary) -->
+    <path
+        android:pathData="M54,24 A30,30 0 1,1 53.99,24 Z"
+        android:strokeWidth="3"
+        android:strokeColor="#00FF87"
+        android:fillColor="#00000000" />
+
+    <!-- Aperture Blades Geometry -->
+    <path
+        android:pathData="M54,24 L54,38"
+        android:strokeWidth="2.5"
+        android:strokeColor="#60EFFF" />
+    <path
+        android:pathData="M54,84 L54,70"
+        android:strokeWidth="2.5"
+        android:strokeColor="#60EFFF" />
+    <path
+        android:pathData="M24,54 L38,54"
+        android:strokeWidth="2.5"
+        android:strokeColor="#60EFFF" />
+    <path
+        android:pathData="M84,54 L70,54"
+        android:strokeWidth="2.5"
+        android:strokeColor="#60EFFF" />
+
+    <!-- Diagonal Aperture Blade Coordinates -->
+    <path
+        android:pathData="M32.8,32.8 L42.7,42.7"
+        android:strokeWidth="2"
+        android:strokeColor="#60EFFF" />
+    <path
+        android:pathData="M75.2,75.2 L65.3,65.3"
+        android:strokeWidth="2"
+        android:strokeColor="#60EFFF" />
+    <path
+        android:pathData="M75.2,32.8 L65.3,42.7"
+        android:strokeWidth="2"
+        android:strokeColor="#60EFFF" />
+    <path
+        android:pathData="M32.8,75.2 L42.7,65.3"
+        android:strokeWidth="2"
+        android:strokeColor="#60EFFF" />
+
+    <!-- Inner Core Aperture Ring -->
+    <path
+        android:pathData="M54,39 A15,15 0 1,1 53.99,39 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#00FF87"
+        android:fillColor="#1A2D2A" />
+
+    <!-- Center AI Sparkle Vector (M3 AutoAwesome Shape in center) -->
+    <!-- Center of star is 54, 54 -->
+    <path
+        android:pathData="M54,46 L55.8,50.8 L60.6,52.6 L55.8,54.4 L54,59.2 L52.2,54.4 L47.4,52.6 L52.2,50.8 Z"
+        android:fillColor="#00FF87" />
+
+</vector>

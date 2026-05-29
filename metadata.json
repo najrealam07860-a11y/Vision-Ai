@@ -1,0 +1,6 @@
+{
+  "name": "Vision Gallery AI",
+  "description": "A premium, flagship-level AI-powered gallery with smart albums, image enhancement, object remover, private biometric vaults, and neural search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
